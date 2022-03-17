@@ -1,0 +1,84 @@
+@charset "ISO-8859-1";
+
+body
+{
+	padding:0px;
+	margin:0px;
+	background-color :#AE275F;
+}
+
+
+.content
+{
+	padding:20px;
+	width:25%;
+	height : 50%;
+	background-color: white;
+	margin-top:10%;
+	margin-left:35%;
+	border:4px black solid;
+    
+	
+}
+h1
+{
+	color : Crimson ;
+}
+
+.user
+{
+	height:40px;
+	width:180px;
+	padding:10px;
+	outline:none;
+	background:none;
+	color:black;
+	border:2px black solid;
+	margin-top:10px;
+	margin-bottom:10px;
+	
+}
+.pwd
+{
+	height:40px;
+	width:180px;
+	padding:10px;
+	outline:none;
+	background:none;
+	color:black;
+	border:2px black solid;
+	margin-top:10px;
+	margin-bottom:10px;
+	
+}
+
+
+.sub
+{
+	height:40px;
+	width:180px;
+	padding:10px;
+	border :none;
+	background: #AE275F;
+	border-radius:30px;
+	color: white;
+	margin-top:20px;
+	
+}
+
+
+.logo{
+    background-image: url("images/dmslogo.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+     padding-left: 0px;
+      margin: 0px;
+      width: 150px;
+      height: 0px;
+
+}
+h1{
+    color: #ffffff;
+    padding-left: 30px;
+    padding-top: 20px;
+}

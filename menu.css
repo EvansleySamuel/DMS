@@ -1,0 +1,45 @@
+@charset "ISO-8859-1";
+.menu
+{
+	background-color:cadetblue;;
+	height: 50px;
+	padding: 5px;
+	
+
+}
+.home
+{
+	position: absolute;
+	left: 16px;
+	top: 110px;
+	text-decoration: none;
+}
+.view
+{
+	position: absolute;
+	left: 76px;;
+	top: 110px;
+	text-decoration: none;
+}
+.close
+{
+	position: absolute;
+   	left:157px;
+    	top: 110px;
+	text-decoration: none;
+}
+.new
+{
+	position: absolute;
+	left: 222px;
+	top: 110px;
+	text-decoration: none;
+
+}
+.search
+{
+	position: absolute;
+	left: 275px;
+	top: 110px;
+	text-decoration: none;
+}

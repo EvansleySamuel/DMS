@@ -1,0 +1,138 @@
+@charset "ISO-8859-1";
+.cage
+{
+	height:40px;
+	width:180px;
+	padding:10px;
+	border :none;
+	outline:none;
+	background:none;
+	color:black;
+	border-bottom:2px black solid;
+}
+.cmobile
+{
+	height:40px;
+	width:180px;
+	padding:10px;
+	border :none;
+	outline:none;
+	background:none;
+	color:black;
+	border-bottom:2px black solid;
+
+}
+.caadhar
+{
+	height:40px;
+	width:180px;
+	padding:10px;
+	border :none;
+	outline:none;
+	background:none;
+	color:black;
+	border-bottom:2px black solid;
+
+}
+
+
+.cname
+{
+	height:40px;
+	width:180px;
+	padding:10px;
+	border :none;
+	outline:none;
+	background:none;
+	color:black;
+	border-bottom:2px black solid;
+	
+}
+.cdate
+{
+	height:40px;
+	width:180px;
+	padding:10px;
+	border :none;
+	outline:none;
+	background:none;
+	color:black;
+	border-bottom:2px black solid;
+	
+}
+
+
+.cprincipal
+{
+	height:40px;
+	width:180px;
+	padding:10px;
+	border :none;
+	outline:none;
+	background:none;
+	color:black;
+	border-bottom:2px black solid;
+	
+}
+
+.crate
+{
+	height:40px;
+	width:180px;
+	padding:10px;
+	border :none;
+	outline:none;
+	background:none;
+	color:black;
+	border-bottom:2px black solid;
+	
+}
+
+.sub
+{
+	height:40px;
+	width:180px;
+	padding:10px;
+	border :none;
+	background: blue;
+	border-radius:30px;
+	
+}
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  margin-left:-5px;
+  margin-right:-5px;
+}
+  
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+

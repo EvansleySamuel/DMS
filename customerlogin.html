@@ -1,0 +1,56 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>login</title>
+	<link rel="stylesheet" href="customerlogin.css">
+	<script>
+	function validname()
+	{
+		var name = document.myform.user.value;
+		var pwd = document.myform.pwd.value;
+		if(name == null && pwd == null)
+		{
+			alert("Entered wrong username or password");
+			return false;
+		}
+		else
+		{
+			return true;
+		}					
+	}
+	</script>
+
+</head>
+<body>
+	
+	<div class="content" >
+		<form name ="myform" action ="login" method="post" onsubmit ="return validname()">
+			<table align ="center">
+		
+				<tr><th colspan ="2"><h1>Login</h1></th></tr>
+				<tr>
+					<td><p>UserName</p></td>
+				</tr>
+				<tr>
+					<td><input type="text" class="user" name="user" placeholder="Enter username" required/>
+				</tr>
+
+				<tr>
+					<td><p>Password<p></td>
+				</tr>
+				<tr>
+					<td><input type="password" class="pwd" name="pwd" placeholder="Enter password" required/>
+				</tr>
+
+
+				<tr>
+					<td><input type="submit" class="sub" value="submit" /></td>
+				</tr>
+
+			</table>
+		</form>
+
+	</div>
+	
+</body>
+</html>

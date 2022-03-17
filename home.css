@@ -1,0 +1,43 @@
+@charset "ISO-8859-1";
+.add
+{
+	position: absolute;
+	top: 250px;
+	left:942px;
+}
+.customer
+{
+    position: absolute;
+    top: 203px;
+    left: 583px;
+}
+
+
+.details
+{
+	position: absolute;
+    	top: 280px;
+   	left: 462px;
+}
+.pagination
+{
+	position: absolute;
+	transform: translate(10px, 0px);
+	top: 500px;
+	left: 618px;
+	
+}
+
+.msg
+{
+	position: absolute;
+	top: 565px;
+	left: 560px;
+}
+.status
+{
+	position: absolute;
+	top: 565px;
+	left: 560px;
+}
+

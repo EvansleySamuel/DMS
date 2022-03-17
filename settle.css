@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  margin-left:-10px;
+  margin-right:-5px;
+}
+  
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.details {
+
+	position: absolute;
+   	top: 336px;
+  	border-collapse: collapse;
+  	border-spacing: 0;
+  	width: 30%;
+	left:150px;
+	border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 14px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.customer
+{
+    position: absolute;
+    top: 191px;
+}
+
+.payment
+{
+
+  position: absolute;
+  top: 200px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 45%;
+  border: 1px solid #ddd;
+
+}
+.head
+{
+	position: absolute;
+	top: -7px;
+	left: -131px;
+	
+}
+.customer
+{
+	position: absolute;
+	left: 287px;
+}
+
+.pagination
+{
+	position: absolute;
+	transform: translate(10px, 0px);
+	top: 500px;
+	left: 900px;
+	
+}
+
